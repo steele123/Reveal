@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Spectre.Console" Version="0.45.1-preview.0.41" />
+      <PackageReference Include="Websocket.Client" Version="4.4.43" />
+    </ItemGroup>
+
+</Project>
